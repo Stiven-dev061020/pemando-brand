@@ -1,0 +1,7 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { scroll-behavior: smooth; }
+body { @apply bg-ink text-ivory font-body antialiased; }
+.gold-text { @apply bg-gold-grad bg-clip-text text-transparent; }
+.btn-gold { @apply bg-gold-grad text-ink font-bold rounded-full px-7 py-3 transition hover:brightness-110 active:scale-95; }
+.btn-outline { @apply border border-gold text-gold rounded-full px-7 py-3 transition hover:bg-gold hover:text-ink; }
+.field { @apply w-full rounded-xl bg-charcoal border border-gold/30 px-4 py-3 outline-none focus:border-gold placeholder:text-ivory/40; }
